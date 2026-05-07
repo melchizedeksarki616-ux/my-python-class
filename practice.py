@@ -82,8 +82,7 @@ print(score/len(questions)*100)
 
 print('i made a chnages')
 
-
-    
+print('i made a new changes')
     
 
 
