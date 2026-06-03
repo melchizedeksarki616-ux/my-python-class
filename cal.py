@@ -332,4 +332,67 @@
 #     print(y)
 # add(2)
 
-print('hello world')
+#print('hello world')
+# name =  input(' ENETR THE NUMBER: '.strip())
+# for i in name:
+#     print(name)
+
+# name = input('  Enter Your Name:'.strip())
+# role = input('Enter Your Role:  '.strip())
+# age = eval(input('  Enter Your Age:'.strip()))
+
+# print(f'Your name is {name.upper()}, your role is {role.upper()} and your age is {age}')
+# #print(f'Name: {name.upper()} | Role: {role.upper()} | Age: {age} Year')
+
+
+
+
+# str = '968-maria, (d@t@ Engineer );; 27y    '.strip().capitalize()
+
+# print(str.replace('968-maria,', 'name: maria |').replace('(','').replace(');;','').replace('d@t@','role: data')
+# .replace(' 27y','| age: 27 years'))
+
+
+# lists = [' apple','yam','banana','mango','plantain']
+# for list in lists:
+
+
+#     print(list.strip())
+# for i in range(5, 0, -1):
+#     print(i)
+
+#print('odd' if 40 % 2 else 'even')
+age = 5
+# while age < 0: 
+    
+#     age = int(input('ENTER AGE: '))
+
+#username = 'melchizedek'
+
+#print(username[1:])
+#print('positive' if 5 > 0 else 'negative'
+
+# n1 = 8
+# n2 = 9
+# n3 = n1 > n2
+# print(f"n1 = {n1}, n2 = {n2}, n3 = {n3}")
+
+
+# a = 5
+# b = 11
+
+# # Don't change below this line
+# c = 0
+# if a >= b and not b < 10:
+#     c = 5
+
+# c += 1
+# print(f"c = {c}")
+
+
+# user = {"name": "Alice", "age": 25}
+# user["name"] = 'g'
+# print(user)
+# user = {"name": "Alice", "age": 25}
+# user.update({"age": 27, "city": "New York"})
+# print(user)

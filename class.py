@@ -329,6 +329,7 @@ def add_item():
     quantity = int(input('Enter quantity: '))
     price = float(input('Enter the price: '))
 
+
     inventory [name] = {'quantity': quantity, 'price': price}
     print(f'{name} added successful.\n')
 
@@ -385,4 +386,4 @@ def menu():
         elif not choice:
             print('invalid choice. try again.')
 
-
+menu()

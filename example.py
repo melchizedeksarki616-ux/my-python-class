@@ -240,25 +240,65 @@
 #     print(f'{key}:{value}')
 
 
-import random
-options = ('1','2','3')
+# import random
+# options = ('1','2','3')
 
-player  = None
-computer = random.choice(options)
+# player  = None
+# computer = random.choice(options)
 
-while player not in options:
-    print('::::::COMPUTER GAME::::::')
-    player = input('Enter An Option Guessing Number : ')
+# while player not in options:
+#     print('::::::COMPUTER GAME::::::')
+#     player = input('Enter An Option Guessing Number : ')
     
-print(f'player choice : {player}')
-print(f'compter choices : {computer}')
-if player == 'computer':
-    print('tie')
-elif player == '1' and computer == '2':
-    print('player wins')
-elif player == '2' and computer == '3':
-    print('player wins')
-elif player == '3' and computer == '1':
-    print('player wins')
-else:
-    print('computer wins')
+# print(f'player choice : {player}')
+# print(f'compter choices : {computer}')
+# if player == 'computer':
+#     print('tie')
+# elif player == '1' and computer == '2':
+#     print('player wins')
+# elif player == '2' and computer == '3':
+#     print('player wins')
+# elif player == '3' and computer == '1':
+#     print('player wins')
+# else:
+#     print('computer wins')
+
+inventory = {}
+def add_item():
+    item = input('Enter Item:')
+    quantity = input('Enter quantity:')
+    price = input('Enter price:')
+
+    inventory = {'item':item,'quantity':quantity,'price':price}
+    print(f'{item} added successfully')
+    print()
+
+def view_inventory():
+    if not inventory:
+        print('Inventory is Emty')
+        return
+    print('------Result--------')
+    for item in inventory:
+        print(f'Item:{item}')
+        print(f'quantity:{quantity[quantity]}')
+        print(f'price:{price[price]}')
+        print()
+
+def home():
+    while True:
+        print('========Result==========')
+        print('1. Add item')
+        print('2. view Inventory')
+        print()
+       
+
+        option = input('choose an option: ')
+        if option == '1':
+            add_item()
+        elif option == '2':
+            view_inventory()
+            
+        else:
+            print('Not Available')   
+
+home()

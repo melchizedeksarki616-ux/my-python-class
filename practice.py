@@ -22,9 +22,9 @@
 # print(names.replace('peter','dave'))
 
 
-isstudent = True
-num = 55685
-text = 'aswd.erf'
+# isstudent = True
+# num = 55685
+# text = 'aswd.erf'
 # print(text.replace('.','//'))
 # print(type(text))
 # print(type(age))
@@ -34,55 +34,66 @@ text = 'aswd.erf'
 # print(num.bit_length())
 
 
-questions = (
-    'This are group of people?',
-    'Is he a student of this school?',
-    'Are you from cameroon?',
-    'do you teach?')
+# questions = (
+#     'This are group of people?',
+#     'Is he a student of this school?',
+#     'Are you from cameroon?',
+#     'do you teach?')
 
-options = (('True','False'),('True','False'),('True','False'),('True','False'))
+# options = (('True','False'),('True','False'),('True','False'),('True','False'))
 
-answers = ('T','F','F','T',)
-gueses = []
-score = 0
-question_numbers = 0
+# answers = ('T','F','F','T',)
+# gueses = []
+# score = 0
+# question_numbers = 0
 
-for i in questions:
-    print(i)
+# for i in questions:
+#     print(i)
 
-    for i in options[question_numbers]:
-        print(i)
+#     for i in options[question_numbers]:
+#         print(i)
 
-    gues = input('choose ansa from above and enter it here:')
-    gueses.append(gues)
+#     gues = input('choose ansa from above and enter it here:')
+#     gueses.append(gues)
 
-    if gues.lower() == answers[question_numbers]:
-        score +=1
-        print('Correct')
-        print('=====================================================')
-    else:
-        print('Not Correct')
-        print(f'The correct answer is:{answers[question_numbers]}')
+#     if gues.lower() == answers[question_numbers]:
+#         score +=1
+#         print('Correct')
+#         print('=====================================================')
+#     else:
+#         print('Not Correct')
+#         print(f'The correct answer is:{answers[question_numbers]}')
     
-        question_numbers +=1
-print('=====================================================')
-print('========================RESULT=======================')
-print('=====================================================')
+#         question_numbers +=1
+# print('=====================================================')
+# print('========================RESULT=======================')
+# print('=====================================================')
 
-for i in answers:
-    print(i, end='')
+# for i in answers:
+#     print(i, end='')
 
-print()
+# print()
 
-print(score/len(questions)*100)
-
-
+# print(score/len(questions)*100)
 
 
 
-print('i made a chnages')
-
-print('i made a new changes')
-    
 
 
+# print('i made a chnages')
+
+# print('i made a new changes')
+
+# print(This is another changes)
+
+
+# email = 2.5
+# print(email == None and email != '')
+# print(type(email))
+
+pw = '1234567890'
+print(len(pw))
+if len(pw) <10:
+    print('Your Password is Too short')
+else:
+    print('It\'s Greater Than Ten')
