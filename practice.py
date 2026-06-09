@@ -96,4 +96,4 @@ print(len(pw))
 if len(pw) <10:
     print('Your Password is Too short')
 else:
-    print('It\'s Greater Than Ten')
+    print('It\'s Greater Than Ten')hk
