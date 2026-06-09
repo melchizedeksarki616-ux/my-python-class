@@ -1,7 +1,7 @@
 # Variable
 # Variable: can be refer to as a container holding a value. e.g
 
-# name = 'davide'
+# name = 'david'
 # age = 25
 
 # l = eval(input('ENETR THE NUMBER'))
@@ -396,3 +396,46 @@ age = 5
 # user = {"name": "Alice", "age": 25}
 # user.update({"age": 27, "city": "New York"})
 # print(user)
+
+
+
+# class fruit:
+#     def __init__(self, name, color, category):
+#         self.name = name
+#         self.color = color
+#         self.category = category
+
+# f = fruit('orange','red','fruit')
+
+# print(f'{f.name} {f.color} {f.category}')
+
+# class book:
+#     def __init__(self, b1, b2, b3):
+#         self.b1 = b1
+#         self.b2 = b2
+#         self.b3 = b3
+
+# b0 = book('math book 1','english book 2','physics book 3')
+
+# print(f'{b0.b1} {b0.b2} {b0.b3}')
+
+class house:
+    house = 'Flat'
+    def __init__(self, room1, room2, room3):
+        self.room1 = room1
+        self.room2 = room2
+        self.room3 = room3
+        print()
+bo = house('Master bedroom','Normal bedroom','Visitor bedroom')
+
+# print(bo.house)
+# print(bo.room3)
+
+class unit:
+    def __init__(self, h, t, u):
+        self.h = h
+        self.t = t
+        self.u = u
+
+num = unit(100, 10, 0)
+print(num.h)
