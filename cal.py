@@ -440,14 +440,33 @@ age = 5
 # num = unit(100, 10, 0)
 # print(num.h)
 
-a = 0
-while a < 3:
-    a = input('Do u Agree with me. Y or N :')
 
-    if a == 'y':
-        print('correct, you got it')
-        break
-        a += 1 
-    else:
-        print('Enter the correct value')
+# WHILE CONDITION LOOP
+# name = ""
+# while name != 'delmi':
+#     name = input('Enter the name: ') 
+# print('Thank You')
 
+# answer = ""
+# while answer !='delmi':
+#     answer = input('Enter the name: ')
+# print('Thank You')
+
+# count = 0
+# while count < 3:
+#     ansa = input('do you agree with me:')
+
+#     if ansa == 'yes':
+#         print('glad u did')
+#         count = count + 2
+
+
+# WHILE TRUE LOOP
+# while True:
+#     answer = input('Do you love me? Yes or No: ')
+#     if answer == "yes":
+#         print('Correct')
+#         break
+#     else:
+#         print('Try again')
+# print('Good Job')
