@@ -419,23 +419,35 @@ age = 5
 
 # print(f'{b0.b1} {b0.b2} {b0.b3}')
 
-class house:
-    house = 'Flat'
-    def __init__(self, room1, room2, room3):
-        self.room1 = room1
-        self.room2 = room2
-        self.room3 = room3
-        print()
-bo = house('Master bedroom','Normal bedroom','Visitor bedroom')
+# class house:
+#     house = 'Flat'
+#     def __init__(self, room1, room2, room3):
+#         self.room1 = room1
+#         self.room2 = room2
+#         self.room3 = room3
+#         print()
+# bo = house('Master bedroom','Normal bedroom','Visitor bedroom')
 
-# print(bo.house)
-# print(bo.room3)
+# # print(bo.house)
+# # print(bo.room3)
 
-class unit:
-    def __init__(self, h, t, u):
-        self.h = h
-        self.t = t
-        self.u = u
+# class unit:
+#     def __init__(self, h, t, u):
+#         self.h = h
+#         self.t = t
+#         self.u = u
 
-num = unit(100, 10, 0)
-print(num.h)
+# num = unit(100, 10, 0)
+# print(num.h)
+
+a = 0
+while a < 3:
+    a = input('Do u Agree with me. Y or N :')
+
+    if a == 'y':
+        print('correct, you got it')
+        break
+        a += 1 
+    else:
+        print('Enter the correct value')
+
