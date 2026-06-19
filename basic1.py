@@ -1,32 +1,85 @@
-# age = 50
-# name = "delmi"
-# gpa = 3.5
-# isstudent = True
 
+#PYTHON BASIC
+
+#print() funtion
+# print("Hello World, i'm learning python")
+
+# input() function
+# input = input('Enter your name: ')
+
+# input
+# name = input('Enter your name: ')
+# age = int(input('Enter your age: '))
+# print(f' happy birthday {name} your {age} years old today')
+
+
+# Special characters.
+#  \"     double quote  
+#  \'     single quote  
+#  \\     back slash  
+#  \n     new line  
+#  \t     tab
+#  \b     4 backspace
+
+
+#Variable
+#name = 'Delmi'  # string
+#age = 25        # integer
+# gpa = 3.35      # float
+# is_student = True    # boolean
+# not_student = False # boolean
+
+# print(f'my name is {name}  and i\'m {age} years old')
+
+#Conversion
 # age = bool(age)
 # name = bool(name)
 # gpa = bool(gpa)
 # isstudent = int(isstudent)
 
-# print('Helloworld')
-# print(age)
-# print(name)
-# print(gpa)
-# print(isstudent)
-# print(f'my name is {name}  and im {age} years old')
 
-# print(type(name))
+#Functions
+#input()
+#print('name')           # 
+# print(type(name))     #value type() checking
+#print(len(name))       len of value
 
 
+#Method
+age = 50
+age.bit_length()        #value.method
+name = 'delmi'
+name.upper()            value.method
 
-# # input
-# name = input('Enter your name: ')
-# age = int(input('Enter your age: '))
 
-# age = age + 1
 
-# print(f' happy birthday {name} your {age} years old today')
 
+
+
+
+# Values Types (hard coded and dynamic values)
+# country = 'Nigeria'                  #hard coded
+# country = input('Enter country:')    # dynamic
+
+
+#Data types in Python
+    #Data Types Categories
+# 1. no value
+# 2. premitive(single values)
+#     int=50, float=3.45, str='hello', bool=True
+# 3. multiple values.   like
+#     list["apple", "mango"],
+#     tuple("apple", "mango"),
+#     set{"apple", "mango"},
+#     dictionary{"name":"Delmi", "country":"Nigeria"} 
+
+
+
+
+
+
+
+# Examples
 
 # #area of a rectangle
 # length = float(input('Enter the length: '))
@@ -323,68 +376,69 @@
 
 #A SIMPLE INVENTORY MANAGEMENT SYSTEM
 
-inventory = {}
+# inventory = {}
 
-def add_item():
-    name = input('Enter item name: ').lower()
-    quantity = int(input('Enter quantity: '))
-    price = float(input('Enter the price: '))
+# def add_item():
+#     name = input('Enter item name: ').lower()
+#     quantity = int(input('Enter quantity: '))
+#     price = float(input('Enter the price: '))
 
 
-    inventory [name] = {'quantity': quantity, 'price': price}
-    print(f'{name} added successful.\n')
+#     inventory [name] = {'quantity': quantity, 'price': price}
+#     print(f'{name} added successful.\n')
 
-def view_inventory():
-    if not inventory:
-        print('Inventory is empty.\n')
-        return
-    print('\n----Inventory---')
-    for name, details in inventory.items():
-        print(f'item: {name}')
-        print(f'  Quantity:{details['quantity']}')
-        print(f'price: N {details["price"]}')
-        print()
-def update_item():
-    name = input('Enter items name to update:').lower()
-    if name in inventory:
-        quantity = int(input('Enter new quantity:'))
-        price = float(input('Enter the price:'))
-        inventory [name] ['quantity'] = quantity
-        inventory [name] ['price'] = price
-        print(f'{name} updated successfully.\n')
-    else:
-        print('Item not found.\n')
-def delete_item():
-    name = input('Enter items name to delete:').lower()
-    if name in inventory:
-        del inventory [name]
-        print(f'{name} updated successfully.\n')
+# def view_inventory():
+#     if not inventory:
+#         print('Inventory is empty.\n')
+#         return
+#     print('\n----Inventory---')
+#     for name, details in inventory.items():
+#         print(f'item: {name}')
+#         print(f'  Quantity:{details['quantity']}')
+#         print(f'price: N {details["price"]}')
+#         print()
+# def update_item():
+#     name = input('Enter items name to update:').lower()
+#     if name in inventory:
+#         quantity = int(input('Enter new quantity:'))
+#         price = float(input('Enter the price:'))
+#         inventory [name] ['quantity'] = quantity
+#         inventory [name] ['price'] = price
+#         print(f'{name} updated successfully.\n')
+#     else:
+#         print('Item not found.\n')
+# def delete_item():
+#     name = input('Enter items name to delete:').lower()
+#     if name in inventory:
+#         del inventory [name]
+#         print(f'{name} updated successfully.\n')
 
-    else:
-        print('Item not found.\n')
+#     else:
+#         print('Item not found.\n')
 
-def menu():
-    while True:
-        print('=====Inventory Menu=======')
-        print('1. add item')
-        print('2. view inventory')
-        print('3. update item')
-        print('4. delete item')
-        print('5. exit')
+# def menu():
+#     while True:
+#         print('=====Inventory Menu=======')
+#         print('1. add item')
+#         print('2. view inventory')
+#         print('3. update item')
+#         print('4. delete item')
+#         print('5. exit')
 
-        choice = input('choose an options: ')
-        if choice =='1':
-            add_item()
-        if choice =='2':
-            view_inventory()
-        if choice =='3':
-            update_item()
-        if choice =='4':
-            delete_item()
-        if choice =='5':
-            print('exiting progam......')
-            break
-        elif not choice:
-            print('invalid choice. try again.')
+#         choice = input('choose an options: ')
+#         if choice =='1':
+#             add_item()
+#         if choice =='2':
+#             view_inventory()
+#         if choice =='3':
+#             update_item()
+#         if choice =='4':
+#             delete_item()
+#         if choice =='5':
+#             print('exiting progam......')
+#             break
+#         elif not choice:
+#             print('invalid choice. try again.')
 
-menu()
+# menu()
+
