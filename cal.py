@@ -1,7 +1,7 @@
 # Variable
 # Variable: can be refer to as a container holding a value. e.g
 
-# name = 'davide'
+# name = 'david'
 # age = 25
 
 # l = eval(input('ENETR THE NUMBER'))
@@ -362,7 +362,7 @@
 #     print(i)
 
 #print('odd' if 40 % 2 else 'even')
-age = 5
+#age = 5
 # while age < 0: 
     
 #     age = int(input('ENTER AGE: '))
@@ -396,3 +396,145 @@ age = 5
 # user = {"name": "Alice", "age": 25}
 # user.update({"age": 27, "city": "New York"})
 # print(user)
+
+
+
+# class fruit:
+#     def __init__(self, name, color, category):
+#         self.name = name
+#         self.color = color
+#         self.category = category
+
+# f = fruit('orange','red','fruit')
+
+# print(f'{f.name} {f.color} {f.category}')
+
+# class book:
+#     def __init__(self, b1, b2, b3):
+#         self.b1 = b1
+#         self.b2 = b2
+#         self.b3 = b3
+
+# b0 = book('math book 1','english book 2','physics book 3')
+
+# print(f'{b0.b1} {b0.b2} {b0.b3}')
+
+# class house:
+#     house = 'Flat'
+#     def __init__(self, room1, room2, room3):
+#         self.room1 = room1
+#         self.room2 = room2
+#         self.room3 = room3
+#         print()
+# bo = house('Master bedroom','Normal bedroom','Visitor bedroom')
+
+# # print(bo.house)
+# # print(bo.room3)
+
+# class unit:
+#     def __init__(self, h, t, u):
+#         self.h = h
+#         self.t = t
+#         self.u = u
+
+# num = unit(100, 10, 0)
+# print(num.h)
+
+
+# WHILE CONDITION LOOP
+# name = ""
+# while name != 'delmi':
+#     name = input('Enter the name: ') 
+# print('Thank You')
+
+# answer = ""
+# while answer !='delmi':
+#     answer = input('Enter the name: ')
+# print('Thank You')
+
+# count = 0
+# while count < 3:
+#     ansa = input('do you agree with me:')
+
+#     if ansa == 'yes':
+#         print('glad u did')
+#         count = count + 2
+
+
+# WHILE TRUE LOOP
+# while True:
+#     answer = input('Do you love me? Yes or No: ')
+#     if answer == "yes":
+#         print('Correct')
+#         break
+#     else:
+#         print('Try again')
+# print('Good Job')
+
+# class person:
+#     def __init__(self, name, age, local, state, country):
+#         self.name = name
+#         self.age = age
+#         self.local = local 
+#         self.state = state
+#         self.country = country
+
+# human = person('delmi', 23, 'Sardauna Local Government', 'Taraba', 'Nigeria')
+
+# print(f"""My name is {human.name}. And i\'m {human.age} years old.
+# I\'m from  {human.local}, {human.state}, of {human.country}""")
+
+
+
+
+print()
+print('Welcome to sit technology hub, we are glad to have you here!!\n')
+
+print("""We are a technology hub that is focused on training and empowering 
+young people with digital skills to thrive in the digital economy.
+Our mission is to bridge the digital divide and create opportunities for, 
+young people to succeed in the digital world.\n""")
+
+print('How may we help you today?')
+
+print('1. Register')
+print('2. Login')
+print('3. Exit\n')
+
+
+print('......Enter your details below to get started....')
+class person:
+    def __init__(self, name, age, dob, course, address):
+        self.name = name
+        self.age = age
+        self.dob = dob
+        self.address = address
+        self.course = course
+
+name = input('Enter your full name: ')
+age = int(input('Enter your age: '))
+dob = input('Enter your date of birth: ')
+address = input('Enter your address: ')
+course = input('Enter your course: ')
+human = person(name=name, age=age, dob=dob, address=address, course=course)
+
+#print(human.name, human.age, human.local, human.state, human.country)
+
+print()
+print(f"""Your name is {human.name}. And you are {human.age} years old.
+Your date of birth is {human.dob}. You came from  {human.address},
+and the course you will pursue is {human.course}""")
+print()
+is_u = input('Confirm the infomation you entered above is legit? True or False: ')
+is_u = is_u.lower()
+while is_u == 'true':
+    print()
+    print('..........Thank you for confirming your Details...........')
+    print()
+    print('........WELCOOME TO SIT TECHNOLOGY HUB..........,')
+    print('We are excited to have you on board and we look forward to seeing you thrive in the digital world!!')
+    break
+else:     
+    print('Please re-enter your info')
+
+
