@@ -1,5 +1,5 @@
 
-#PYTHON BASIC
+#PYTHON BASIC CODE CHAPTER ONE
 
 #print() funtion
 # print("Hello World, i'm learning python")
