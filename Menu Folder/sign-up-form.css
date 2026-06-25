@@ -1,0 +1,65 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form{
+    position:relative;
+    border-style:dashed;
+    height: 450px;
+    width: 400px;
+    top: 100px;
+    left: 100px;
+    border-radius: 20px;
+    border-color: blue;
+    
+    
+}
+
+h1{
+    color: darkblue;
+    text-align:center;
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+label{
+    color: rgb(99, 4, 4);
+    font-weight: 800;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 7px;
+}
+
+input{
+    width: 350px;
+    padding:6px;
+    margin: 7px;
+    border-radius: 12px;
+    border-color: rgb(1, 1, 17);
+}
+
+.btn1{
+    position:static;
+    background-color: darkslateblue;
+    color: aliceblue;
+    border-radius: 5px;
+    height: 25px;
+    margin-left: 20px;
+}
+
+#btn2{
+    position:static;
+    background-color: darkslateblue;
+    color: aliceblue;
+    border-radius: 5px;
+    height: 25px;
+    margin-left: 230px;
+    
+    
+
+}
+
+.btn:hover{
+    color: #000;
+    cursor:pointer;
+}

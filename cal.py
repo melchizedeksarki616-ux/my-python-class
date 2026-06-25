@@ -1,8 +1,8 @@
 # Variable
 # Variable: can be refer to as a container holding a value. e.g
 
-# name = 'david'
-# age = 25
+name = 'david'
+age = 25
 
 # l = eval(input('ENETR THE NUMBER'))
 # print(l[:5])
@@ -487,7 +487,7 @@
 
 
 
-print()
+
 print('Welcome to sit technology hub, we are glad to have you here!!\n')
 
 print("""We are a technology hub that is focused on training and empowering 
